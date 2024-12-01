@@ -1,0 +1,26 @@
+.instruments_section{
+    background-color: #BFBFBF;
+    width: 510px;
+    margin: 30px auto;
+    padding: 24px;
+    min-height: 400px;
+    border-radius: 16px;
+ }  
+ 
+ .instruments_container{
+     display:flex;
+     flex-wrap: wrap;
+     gap: 25px;
+ }
+
+ @media (min-width: 760px){
+    .instruments_section{
+        width: 740px;
+    }
+}
+
+@media (min-width: 990px){
+    .instruments_section{
+        width: 970px;
+    }
+}

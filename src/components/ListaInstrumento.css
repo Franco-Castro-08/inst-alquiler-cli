@@ -1,0 +1,32 @@
+.instrument{
+    background-color: #f0f016;
+    width: 220px;
+    padding: 20px 16px;
+    border-radius: 12px;
+    gap: 14px;
+}
+
+
+.instrument_img{
+    border-radius: 12px;
+    display:block;
+    margin:auto;
+}
+.instrument_name{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 14px;
+    color: #403f37;
+}
+
+.instrument_details{
+    display:flex;
+    margin-top: 16px;
+    justify-content: space-between;
+    align-items: center;
+    color: #403f37;
+}
+
+.instrument_desc{
+    font-weight: bold;
+}
